@@ -1,0 +1,23 @@
+[
+  {
+    "name": "个人网站模板",
+    "description": "本网站的源代码，支持深色模式与项目筛选。",
+    "tags": ["web", "template", "vanilla"],
+    "repo": "https://github.com/GiftianAnn/personal_web_test",
+    "demo": ""
+  },
+  {
+    "name": "示例项目 A",
+    "description": "一个用于展示的示例项目，介绍技术栈与特点。",
+    "tags": ["frontend", "react"],
+    "repo": "https://github.com/GiftianAnn/example-a",
+    "demo": "https://giftianann.github.io/example-a/"
+  },
+  {
+    "name": "示例项目 B",
+    "description": "另一个示例项目，可替换为你的真实项目。",
+    "tags": ["node", "api"],
+    "repo": "https://github.com/GiftianAnn/example-b",
+    "demo": ""
+  }
+]

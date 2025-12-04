@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GiftianAnn · 个人网站</title>
+  <meta name="description" content="GiftianAnn 的个人主页与项目展示" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <span class="brand-avatar" aria-hidden="true">GA</span>
+        <span class="brand-name">GiftianAnn</span>
+      </a>
+      <nav class="nav">
+        <a href="#about">关于我</a>
+        <a href="#projects">项目</a>
+        <a href="#contact">联系</a>
+        <button id="themeToggle" class="theme-toggle" aria-label="切换深色模式">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1>你好，我是 GiftianAnn</h1>
+            <p class="subtitle">前端 / 全栈开发者，热爱简洁优雅的代码与用户体验。</p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">查看项目</a>
+              <a class="btn" href="#contact">联系我</a>
+            </div>
+          </div>
+          <div class="hero-avatar">
+            <img src="images/avatar.jpg" alt="GiftianAnn 头像" onerror="this.src='https://avatars.githubusercontent.com/u/0?v=4'"/>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>关于我</h2>
+          <p>
+            我专注于构建高性能、可维护的 Web 应用，熟悉 HTML/CSS/JavaScript、React、Node.js、GitHub Actions 等。
+            喜欢研究可访问性、组件化设计与自动化部署。
+          </p>
+          <ul class="facts">
+            <li>🏗 最近在做：个人站点与组件库</li>
+            <li>🧰 技术栈：HTML/CSS/JS、React、Node、Express、Tailwind、Vite</li>
+            <li>🚀 部署：GitHub Pages、Vercel、Netlify</li>
+          </ul>
+          <div class="socials">
+            <a class="social-link" href="https://github.com/GiftianAnn" target="_blank" rel="noopener">GitHub</a>
+            <a class="social-link" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="social-link" href="mailto:youremail@example.com">Email</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section alt">
+        <div class="container">
+          <div class="section-header">
+            <h2>项目</h2>
+            <div class="filters">
+              <label>
+                <input type="search" id="projectSearch" placeholder="搜索项目..." />
+              </label>
+              <select id="tagFilter" aria-label="按标签筛选">
+                <option value="">全部标签</option>
+              </select>
+            </div>
+          </div>
+          <div id="projectGrid" class="grid"></div>
+          <div id="projectEmpty" class="empty hidden">没有匹配的项目</div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>联系我</h2>
+          <p>欢迎通过以下方式联系我，或在 GitHub 上提 Issue：</p>
+          <ul class="contact-list">
+            <li>📧 邮箱：<a href="mailto:youremail@example.com">youremail@example.com</a></li>
+            <li>🐙 GitHub：<a href="https://github.com/GiftianAnn" target="_blank" rel="noopener">GiftianAnn</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>© <span id="year"></span> GiftianAnn. 保留所有权利。</div>
+        <div class="footer-links">
+          <a href="README.md">README</a>
+          <a href="#top">回到顶部 ↑</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
