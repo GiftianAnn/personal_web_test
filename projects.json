@@ -1,23 +1,23 @@
 [
   {
-    "name": "个人网站模板",
-    "description": "本网站的源代码，支持深色模式与项目筛选。",
-    "tags": ["web", "template", "vanilla"],
-    "repo": "https://github.com/GiftianAnn/personal_web_test",
-    "demo": ""
+    "name": "memos",
+    "description": "个人笔记与知识管理服务（memos 实例）。",
+    "tags": ["service", "notes", "memos"],
+    "repo": "",
+    "demo": "https://kezjgqiq.ap-northeast-1.clawcloudrun.com"
   },
   {
-    "name": "示例项目 A",
-    "description": "一个用于展示的示例项目，介绍技术栈与特点。",
-    "tags": ["frontend", "react"],
-    "repo": "https://github.com/GiftianAnn/example-a",
-    "demo": "https://giftianann.github.io/example-a/"
+    "name": "cobweb",
+    "description": "私有化知识图库与索引服务（Cobweb 实例）。",
+    "tags": ["service", "knowledge", "cobweb"],
+    "repo": "",
+    "demo": "https://xajddjcxahgk.ap-northeast-1.clawcloudrun.com/_/"
   },
   {
-    "name": "示例项目 B",
-    "description": "另一个示例项目，可替换为你的真实项目。",
-    "tags": ["node", "api"],
-    "repo": "https://github.com/GiftianAnn/example-b",
-    "demo": ""
+    "name": "it_tools",
+    "description": "一组实用的 IT 工具集合（在线实例）。",
+    "tags": ["tools", "it", "utilities"],
+    "repo": "",
+    "demo": "https://it-tools-hbytyjtf.ap-northeast-1.clawcloudrun.com"
   }
 ]
