@@ -11,13 +11,13 @@
     "description": "私有化知识图库与索引服务（Cobweb 实例）。",
     "tags": ["service", "knowledge", "cobweb"],
     "repo": "",
-    "demo": "https://kezjgqiq.ap-northeast-1.clawcloudrun.com/_/"
+    "demo": "https://xajddjcxahgk.ap-northeast-1.clawcloudrun.com/_/"
   },
   {
     "name": "it_tools",
     "description": "一组实用的 IT 工具集合（在线实例）。",
     "tags": ["tools", "it", "utilities"],
     "repo": "",
-    "demo": "https://it-tools-hbytyjtf.ap-northeast-1-clawcloudrun.com"
+    "demo": "https://it-tools-hbytyjtf.ap-northeast-1.clawcloudrun.com"
   }
 ]
